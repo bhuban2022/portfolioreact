@@ -1,38 +1,366 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Inter", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.clr-change {
+  color: #000;
+  margin-right: 157px;
+}
+.c-change {
+  color: rgba(30, 147, 7, 0.594);
+}
+.circle-one {
+  width: 100px;
+  height: 100px;
+  background-color: #5ffc40;
+  border-radius: 30%;
+}
+.cr-des {
+  color: #0db75f;
+
+  font-size: 48px;
+  font-weight: 600;
+}
+.main-clor {
+  width: 426px;
+  font-size: 45px;
+  font-weight: 600;
+}
+.wraps {
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+}
+.bord {
+  border-right: 1px solid #0db75f;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+}
+.bord-one {
+  border-right: 1px solid #0db75f;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bord-three {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.inner-sect {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  height: 82px;
+}
+.numbers-stl {
+  font-size: 30px;
+  font-weight: 750;
+  color: #0db75f;
+}
+.txt-stl {
+  font-size: 20px;
+  font-weight: 450;
+}
+.circle-dzn {
+  height: 30px;
+  width: 80px;
+  border: 1px solid #0db75f;
+  border-radius: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+.circle-dzn span {
+  color: #0db75f;
+}
+.txt-editing {
+  font-size: 40px;
+  font-weight: 600;
+  width: 450px;
+}
+.txt-editing-two {
+  font-size: 40px;
+  font-weight: 600;
+  width: 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.txt-editing span {
+  color: #0db75f;
+}
+.txt-editing-two span {
+  color: #0db75f;
+}
+.txt-editing-one {
+  width: 550px;
+}
+.wrap-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.wrap-overall {
+  display: flex;
+  justify-content: space-around;
+}
+.wrap-new {
+  display: flex;
+}
+.wrap-three {
+  display: flex;
+  justify-content: flex-end;
+}
+.three {
+  width: fit-content;
+}
+.slider-container {
+  width: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.txt-name {
+  width: 400px;
+  margin-bottom: 10px;
+}
+.txt-name span {
+  text-align: justify;
+}
+
+.btm-all {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.circle-dzn-new {
+  height: 30px;
+  width: 80px;
+  border: 1px solid #0db75f;
+  border-radius: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.footer-sect {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 70px;
+}
+.text-aln-new {
+  font-size: 30px;
+  font-weight: 500;
+  color: #0db75f;
+}
+.txt-algn-new-btn {
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.bnt-txt {
+  width: 400px;
+}
+.phn {
+  display: flex;
+  gap: 10px;
+}
+.icon {
+  font-size: 30px;
+}
+.inpt-name input {
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+  color: rgb(225, 225, 225);
+  border: 1px solid rgb(211, 209, 209);
+  font-size: 12px;
+}
+.inpt-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 37px;
+}
+.inpt-wrap-one {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 37px;
+  gap: 15px;
+  font-size: 12px;
+}
+.siz-expand textarea {
+  width: 615px;
+  height: 123px;
+  border-radius: 4px;
+  padding: 10px;
+  border: 1px solid rgb(215, 215, 215);
+  resize: none;
+}
+.phn-wrap {
+  margin-top: 70px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+}
+.fotr-wrap {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: baseline;
+}
+.bottm-section {
+  display: flex;
+  justify-content: space-around;
+}
+.bottm-section span {
+  font-weight: 500;
+  font-size: 14px;
 }
 
-.App-link {
-  color: #61dafb;
+.social-icons {
+  display: flex;
+  gap: 5px;
+  font-size: 20px;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.vertical-text {
+  transform: rotate(90deg); /* Rotates the text 90 degrees clockwise */
+  transform-origin: left bottom; /* Sets the rotation origin to the bottom-left corner */
+  display: inline-block; /* Ensures the rotation applies correctly */
+  white-space: nowrap; /* Prevents the text from wrapping */
+  color: #0db75f;
+  padding: 5px;
+}
+.line {
+  width: 250px;
+  height: 2px;
+  background-color: #0db75f;
+  transform: rotate(90deg); /* Rotates the text 90 degrees clockwise */
+  transform-origin: left bottom; /* Sets the rotation origin to the bottom-left corner */
+  display: inline-block; /* Ensures the rotation applies correctly */
+  white-space: nowrap; /* Prevents the text from wrapping */
+}
+.social {
+  transform-origin: left bottom; /* Sets the rotation origin to the bottom-left corner */
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap; /* Prevents the text from wrapping */
+  position: relative;
+  top: 133px;
+  padding: 5px;
+}
+.nav-style {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.box {
+  height: 250px;
+  width: 250px;
+  background-color: #0db75f;
+}
+.box-bord {
+  width: 250px;
+  height: 250px;
+  border: 4px solid #000;
+  position: relative;
+  right: 20px;
+  top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sociallink {
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  background-color: green;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_icons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.welcome_outline {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+  border-radius: 80%;
+}
+.line_hero {
+  width: 2px;
+  height: 100px;
+  background-color: green;
+}
+
+.social_side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.text_social {
+  writing-mode: vertical-rl;
+  color:green;
+}
+.heroimage img {
+  position: relative;
+  bottom: 288px;
+  height: 300px;
+  width: 230px;
+}
+.main-div {
+  width: 700px;
+}
+.btn-aligns {
+  display: flex;
+  justify-content: flex-end;
+}
+.circle-dzn-new span {
+  color: #0db75f;
+}
+.nm {
+  font-size: 14px;
+  font-weight: 600;
+}
+.nm-one {
+  font-size: 14px;
+  color: rgb(189, 185, 185);
+}
+.new-containr {
+  margin-top: 100px;
+}
+.para {
+  width: 426px;
+}
+.star-one {
+  margin-bottom: 10px;
+}
+.btn-editin {
+  font-size: 12px;
+}
+
+.design-visual p {
+  width: 294px;
+}
+.call-sect {
+  line-height: 10px;
+}
+.img-edit{
+  border-radius: 50%;
+  border:1px solid rgb(44, 44, 44);
 }
